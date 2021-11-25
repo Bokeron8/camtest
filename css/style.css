@@ -1,0 +1,23 @@
+html, body {
+    margin: 0; height: 100%; overflow: hidden
+}
+
+.rotate {
+    transform: rotate(90deg) translateY(-100%);
+    transform-origin:top left;
+}
+.camera-area{
+    background-image: url("https://imag.malavida.com/mvimgbig/download-fs/five-nights-at-freddys-14759-1.jpg");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    height: 100vw;
+    width: 100vh;
+}
+.buttons-area{
+    max-height: 100px;
+    transform: rotate(-90deg);
+    height:100%;
+    display:flex;
+    justify-content: right;
+    align-items: center;
+}
